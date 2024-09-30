@@ -1,0 +1,13 @@
+body {
+    display: flex;
+}
+
+header {
+    display: flex;
+}
+
+ul {
+    display: flex; 
+    gap: 30px; 
+    list-style-type: none;
+}
