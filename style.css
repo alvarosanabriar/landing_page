@@ -1,6 +1,26 @@
+body {
+    font-family: "Roboto Mono", monospace;
+}
+
+header, 
+.intro,
+footer {
+    background-color: #1F2937;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
+}
+
+/* Font sizes and styles */
+header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header .nav {
+    
 }
 
 .nav {
