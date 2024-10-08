@@ -22,10 +22,14 @@ header {
     justify-content: flex-end;
 }
 
+.logo {
+    padding-left: 10%;
+}
 
 .nav {
     margin-left: auto; 
     margin-top: auto;
+    padding-right: 10%;
 }
 
 ul {
