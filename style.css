@@ -45,3 +45,21 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info,
+  img {
+    max-width: 200px;
+  }
+  
