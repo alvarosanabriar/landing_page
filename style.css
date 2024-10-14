@@ -15,6 +15,29 @@ header .logo {
     color: #F9FAF8;
 }
 
+.authorintro {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 25px;
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center;
+    margin-top: 5px;
+    width: 120px;
+    padding: 5px;
+}
+
 /* sections */
 
 header {
@@ -63,3 +86,15 @@ a {
     max-width: 200px;
   }
   
+  img.avatar,
+  .mainintro   {
+    max-width: 500px;
+  }
+
+  .intro {
+   display: flex;
+   justify-content: center; 
+   padding: 50px 0 80px;
+   gap: 60px;
+  }
+
