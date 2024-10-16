@@ -23,7 +23,7 @@ header .logo {
 
 .desc {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #E5E7EB; 
 }
 
 button {
@@ -36,6 +36,29 @@ button {
     margin-top: 5px;
     width: 120px;
     padding: 5px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+    color: #909093;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #4B535F;
+}
+
+.quote figcaption {
+    color: #1F2937;
+    font: bold;
 }
 
 /* sections */
@@ -68,24 +91,7 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
-
-.title {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-  }
-  
-  .info,
-  img {
-    max-width: 200px;
-  }
-  
+ 
   img.avatar,
   .mainintro   {
     max-width: 500px;
@@ -96,5 +102,28 @@ a {
    justify-content: center; 
    padding: 50px 0 80px;
    gap: 60px;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 100px;
+  }
+
+  .info,
+  .info img {
+    max-width: 200px;
+  }
+
+  .info img {
+    border: 3px solid #3882F6;
+    border-radius: 25px;
   }
 

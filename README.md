@@ -7,3 +7,5 @@ The objective of this project are the following:
 
 Additional skills learned: 
 - Import and use fonts from Google Fonts 
+- Review border properties on img tags
+- Review the blockquote tag on html 
