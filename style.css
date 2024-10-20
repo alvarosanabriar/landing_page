@@ -21,7 +21,8 @@ header .logo {
     font-weight: 900;
 }
 
-.desc {
+.desc, 
+footer {
     font-size: 18px;
     color: #E5E7EB; 
 }
@@ -59,6 +60,18 @@ button {
 .quote figcaption {
     color: #1F2937;
     font: bold;
+}
+
+.signup {
+  font-size: 20px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.call,
+button.secondcall {
+  font-size: 18px;
+  color: #F9FAF8;
 }
 
 /* sections */
@@ -127,3 +140,56 @@ a {
     border-radius: 25px;
   }
 
+  .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 50px 50px;
+  }
+
+  figcaption {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .newsletter {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    }
+
+  .sign-box {
+    background-color: #3882F6;
+    margin: auto;
+    border-radius: 5px;
+    padding: 80px 200px 0 160px;
+    display: flex;   
+    flex-direction: column; 
+    justify-items: center;
+    font-size: 18px;
+    width: 800px;
+    height: 150px;
+  }
+
+  .call {
+    display: flex;
+    gap: 40px;  
+    align-items: center;
+  }
+
+  button.secondcall {
+    border: 2px solid #F9FAF8;  
+    border-radius: 25px;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
