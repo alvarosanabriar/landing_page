@@ -9,3 +9,5 @@ Additional skills learned:
 - Import and use fonts from Google Fonts 
 - Review border properties on img tags
 - Review the blockquote tag on html 
+- Learned other HTML Semantic tags
+- Included more compatible measure units

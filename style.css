@@ -11,19 +11,19 @@ footer {
 }
 
 header .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #F9FAF8;
 }
 
 .authorintro {
-    font-size: 48px;
+    font-size: 3rem;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 .desc, 
 footer {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #E5E7EB; 
 }
 
@@ -31,28 +31,28 @@ button {
     background-color: #3882F6;
     border: none;
     border-radius: 25px;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #F9FAF8;
     text-align: center;
-    margin-top: 5px;
-    width: 120px;
-    padding: 5px;
+    margin-top: 0.3125rem;
+    width: 9vw;
+    padding: 1%;
 }
 
 .title {
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #1F2937;
     font-weight: 900;
 }
 
 .text {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #909093;
 }
 
 .quote {
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: light italic;
     color: #4B535F;
 }
@@ -63,14 +63,14 @@ button {
 }
 
 .signup {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   color: #F9FAF8;
 }
 
 .call,
 button.secondcall {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #F9FAF8;
 }
 
@@ -82,20 +82,20 @@ header {
 }
 
 .logo {
-    padding-left: 10%;
+    padding-left: 7%;
 }
 
 .nav {
     margin-left: auto; 
     margin-top: auto;
-    padding-right: 10%;
+    padding-right: 7%;
 }
 
 ul {
     display: flex;
-    gap: 30px; 
+    gap: 1.875rem; 
     list-style-type: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 0;
     padding: 0;
 }
@@ -107,32 +107,33 @@ a {
  
   img.avatar,
   .mainintro   {
-    max-width: 500px;
+    max-width: 40vw;
   }
+
 
   .intro {
    display: flex;
    justify-content: center; 
-   padding: 50px 0 80px;
-   gap: 60px;
+   padding: 3.125rem 0 5rem;
+   gap: 3.75rem;
   }
 
   .title {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 3.125rem;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 52px;
-    margin-bottom: 100px;
+    gap: 3.25rem;
+    margin-bottom: 6.25rem;
   }
 
   .info,
   .info img {
-    max-width: 200px;
+    max-width: 14.5vw;
   }
 
   .info img {
@@ -144,13 +145,13 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px 50px 50px;
+    padding: 1.875rem 3.125rem 3.125rem;
   }
 
   figcaption {
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 10%;
   }
 
   .newsletter {
@@ -158,25 +159,25 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 25em;
     }
 
   .sign-box {
     background-color: #3882F6;
     margin: auto;
     border-radius: 5px;
-    padding: 80px 200px 0 160px;
+    padding: 6.5% 16% 0 13%;
     display: flex;   
     flex-direction: column; 
     justify-items: center;
-    font-size: 18px;
-    width: 800px;
-    height: 150px;
+    font-size: 1.125rem;
+    width: 59vw;
+    height: 9.375rem;
   }
 
   .call {
     display: flex;
-    gap: 40px;  
+    gap: 2.5rem;  
     align-items: center;
   }
 
@@ -191,5 +192,5 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 5em;
   }
