@@ -35,7 +35,8 @@ button {
     color: #F9FAF8;
     text-align: center;
     margin-top: 0.3125rem;
-    width: 9vw;
+    width: 120px;
+    min-width: 100px;
     padding: 1%;
 }
 
@@ -104,10 +105,19 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
- 
+
+
+.intro,
+.desc {
+  display: flex;
+}
+
   img.avatar,
   .mainintro   {
     max-width: 40vw;
+    max-height: 20vw;
+    min-width: 200px;
+    min-height: 100px;
   }
 
 
